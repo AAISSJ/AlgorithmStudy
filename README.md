@@ -1,9 +1,9 @@
-# ✍️ Algorithm Study ✍️ 
-Problem Sloving with algorithms 
+# ✍️ Algorithm Study : Problem Sloving with algorithms ✍️ 
 
 - 매주 알고리즘 2문제씩 꾸준히 풀면서 메소드 잊지 않게 하는 것 ! 
 - PS 문제 풀이 감각 유지하기 
 - 알고리즘 개념 되새김질
+
 
 
 ## Problem Link
