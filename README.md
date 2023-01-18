@@ -21,9 +21,10 @@
 
 
 ##  알고리즘별 문제 링크 
-- 해시 
+- 스택
   - [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
   - [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
+- 해시 
   - [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) 
   - [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
 - 완전 탐색
