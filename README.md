@@ -18,7 +18,7 @@
   - [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) 
 - Week 04
   - [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
-
+  - [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
 
 ##  알고리즘별 문제 링크 
 - 스택
@@ -29,6 +29,9 @@
   - [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
 - 완전 탐색
   - [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
+- 그리디 
+  - [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
+
 
 ## 알고리즘별 해법 정리 
   - [해시](https://asidefine.tistory.com/209)
