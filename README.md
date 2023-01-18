@@ -15,11 +15,16 @@
   - [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
 - Week 03
   - [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
+  - [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) 
+- Week 04
+  - [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
 
 
 ##  알고리즘별 문제 링크 
 - 해시 
   - [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
   - [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
+  - [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) 
+  - [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
 - 완전 탐색
   - [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
