@@ -19,6 +19,12 @@
 - Week 04
   - [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
   - [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
+- Week 05
+  - [기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798) 
+  - [숫자 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)
+- Week 06
+  - [카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994)
+  - [문자열 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/140108) 
 
 ##  알고리즘별 문제 링크 
 - 스택
