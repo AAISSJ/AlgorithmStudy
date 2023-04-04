@@ -25,6 +25,11 @@
 - Week 06
   - [카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994)
   - [문자열 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/140108) 
+- Week 07
+  - [둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652)
+  - 
+
+
 
 ##  알고리즘별 문제 링크 
 - 스택
