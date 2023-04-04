@@ -27,7 +27,7 @@
   - [문자열 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/140108) 
 - Week 07
   - [둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652)
-  - 
+  - [옹알이 2](https://school.programmers.co.kr/learn/courses/30/lessons/133499)
 
 
 
