@@ -2,7 +2,7 @@
 import pandas as pd
 
 
-df = pd.read_csv('/content/drive/MyDrive/코딩테스트/data/data6.csv')
+df = pd.read_csv('./data/data6.csv')
 df['START_DATE'] = pd.to_datetime(df['START_DATE'])
 df['END_DATE'] = pd.to_datetime(df['END_DATE'])
 
