@@ -9,4 +9,4 @@ while 1:
         if cnt == n:
             print(num)
             break
-    res += 1
+    num += 1
