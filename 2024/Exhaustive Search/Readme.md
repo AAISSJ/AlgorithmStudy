@@ -36,6 +36,9 @@
 
 
 # Brute-force 
+
+![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/5c4640d5-bad3-4edc-996d-07d5cdf1fb48)
+
 - 모든 경우를 다 탐색한다
 - 할 수 있는 가장 기초적인 방법
 - `Step 1. 문제 이해하기` 단계에서 input을 확인하는 것 중요
