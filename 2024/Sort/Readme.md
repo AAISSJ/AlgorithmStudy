@@ -5,5 +5,5 @@
 - 카운팅 정렬
   - 주어진 배열의 값 범위가 작은 경우 빠른 속도를 갖는 정렬 알고리즘
 - sorted 다중 조건
-  - f = sorted(e, key = lambda x : (x[0], -x[1]))
+  - f = sorted(dic.items(), key = lambda x : (x[0], -x[1]))
 
