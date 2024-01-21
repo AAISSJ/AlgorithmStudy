@@ -1,7 +1,7 @@
 import sys 
 input = sys.stdin.readline
 
-N = int(input())
+N = int(input()) # 1 ≤ N ≤ 1,000,000
 tmp = list(map(int, input().split()))
 
 sort_tmp = sorted(set(tmp))  # nlogn
