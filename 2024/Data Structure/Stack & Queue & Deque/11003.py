@@ -25,6 +25,12 @@ dq = deque()
 #         print(min(dq), end=' ')
 #         dq.popleft()
 
+# 해결 방법 
+# deque + 윈도우 크기를 l로 유지 
+# deque 내부에는 윈도위 내의 element만 유지 
+# 최솟값의 후보가 될 수 없는 것들을 버리자 
+# deque.peeklast값이 input보다 크면 최솟값이 될 가능성 x
+# 윈도우 내의 element만 유지하기 위해 deque의 가장 ... 
 
 for i,n in enumerate(arr): # O(N)
     if i==0:
