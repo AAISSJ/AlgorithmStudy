@@ -1,5 +1,12 @@
-# 인덱스 트리 
-# https://programming119.tistory.com/173
+# 인덱스 트리라고도 하고, 세그먼트 트리라고도 한다 
+
+# 개념은 아래의 유튜브 영상 
+# https://youtu.be/1d9sqmuLy-o?si=tfRyxeagU9hV02sH
+# 아래는 코드적으로 설명을 잘 해놓은 사이트 
+# https://www.acmicpc.net/blog/view/9
+# https://book.acmicpc.net/ds/segment-tree
+
+
 # 사용 조건 : 배열 A기 있을 때, 다음의 연산을 여러 번 (M번) 수행해야 하는 경우 
 # 1. 구간 l,r이 주어졌을 때, A[l]+ .... + A[r]을 구하여라 
 # 2. i번째 수 A[i]를 V로 바꿔라 
