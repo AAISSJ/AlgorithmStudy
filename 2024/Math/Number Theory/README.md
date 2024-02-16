@@ -13,7 +13,7 @@ def make_primes(num):
     count_dic[1]=False
     for i in range(2, num+1):
         if count_dic[i]: # True라면
-            for j in range(i*i, num+1, i):
+            for j in range(i*i, num+1, i): # 요부분 주목!
                 count_dic[j]=False
     return count_dic
 ```
