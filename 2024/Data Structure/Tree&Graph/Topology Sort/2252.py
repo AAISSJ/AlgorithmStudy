@@ -10,8 +10,9 @@ in_degree = [0 for i in range(N+1)] # 진입차수
 
 
 def init(a,b):
-    arr[a].append(b)
-    in_degree[b]+=1
+    arr[a].append(b) # A가 선행, B가 후행 
+    in_degree[b]+=1 # A의 선수로 B가 지정되었으므로 진입차수를 1 추가
+
 
 # init
 for _ in range(M):
