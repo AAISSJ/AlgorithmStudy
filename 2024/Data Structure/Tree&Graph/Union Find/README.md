@@ -8,18 +8,18 @@
       - 루트노드가 서로 다르면 union 연산 실행
       - 루트노드가 서로 같으면 cycle 발생한 것
 ## init 연산
-```
+``` python
   arr = [i for i in range(N+1)]
 ```
 ## Union 연산  
-```
+``` python
   def union(a,b):
     a_root = find(a)
     b_root = find(b)
     arr[a_root] = b_root
 ```
 ## Find 연산
-```
+``` python
   def find(a):
     if arr[a]==a :
         return a 
