@@ -10,3 +10,6 @@
 
 
 ## 2. Prim 
+- 최단 경로 알고리즘의 dijkstra와 코드 비슷하나 차이점 확인하기!
+  - dijkstra는 시작 노드에 대해서 각 노드에 대한 최단 경로를 Weight 배열에 업데이트 ([백준 1713번](https://github.com/AAISSJ/AlgorithmStudy/blob/main/2024/Data%20Structure/Tree%26Graph/Short%20Cut/Dijkstra/1753.py))
+  - prim의 경우는 시작 노드에 대해소 모든 노드를 거쳐서 각 노드를 거쳤을 때의 값을 weight 배열 기록 ([백준 1922](https://github.com/AAISSJ/AlgorithmStudy/blob/main/2024/Data%20Structure/Tree%26Graph/Minimum%20Spanning%20Tree/Prim/1922.py))
