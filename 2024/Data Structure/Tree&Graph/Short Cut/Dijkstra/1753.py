@@ -30,13 +30,17 @@ def dijkstra(start_node):
     while pq:
         now_w, now_n = heappop(pq)
 
+        # **** bfs, prim과 다른 점 
         if weight[now_n] < now_w: # 최단거리 테이블( distance[꺼낸 노드번호] ) 에 기록된 정보보다 값이 크면, 최단거리 정보가 아니기 때문에 continue 로 무시
             continue 
+        # ****************** 
         
         # 그게 아니라면 최단거리 정보이므로 다음과 같은 작업을 수행
         for next_w, next_n in graph[now_n]: # 꺼낸 노드번호에서 갈수 있는 노드와 거리정보를 i를 통해 한개씩 접근
+            # **** bfs, prim과 다른 점 
             if now_w + next_w < weight[next_n]:
                 weight[next_n] = now_w + next_w
+                # ************************
                 heappush(pq,(weight[next_n] ,next_n))
 
         
