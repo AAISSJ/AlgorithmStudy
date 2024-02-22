@@ -8,4 +8,6 @@
   - weight 업데이트 
 - **<-> 최소 신장 트리의 Prim 알고리즘 코드와 비슷하지만 차이점 구별하기!**
   - dijkstra는 시작 노드에 대해서 각 노드에 대한 최단 경로를 Weight 배열에 업데이트 ([백준 1713번](https://github.com/AAISSJ/AlgorithmStudy/blob/main/2024/Data%20Structure/Tree%26Graph/Short%20Cut/Dijkstra/1753.py))
+    -  prim과의 차이점 - 중복 체크하지 않음(이미 방문한 정점이어도 최단 경로면 pq에 추가), **그 대신 지금 가는 길의 weight가 최소가 되는지 확인** 
   - prim의 경우는 시작 노드에 대해서 모든 노드를 거쳐서 각 노드를 거쳤을 때의 값을 기록 ([백준 1922번](https://github.com/AAISSJ/AlgorithmStudy/blob/main/2024/Data%20Structure/Tree%26Graph/Minimum%20Spanning%20Tree/Prim/1922.py))
+    - dijkstra와의 차이점 - **방문한 곳 또 가면 안된다**
