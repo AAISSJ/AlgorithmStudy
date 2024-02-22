@@ -30,7 +30,7 @@ def dijkstra(start_node):
     while pq:
         now_w, now_n = heappop(pq)
 
-        # **** bfs, prim과 다른 점 
+        # **** bfs, prim과 다른 점 - 중복 체크하지 않음(이미 방문한 정점이어도 최단 경로면 pq에 추가), 그 대신 weight가 최소인지 확인 
         if weight[now_n] < now_w: # 최단거리 테이블( distance[꺼낸 노드번호] ) 에 기록된 정보보다 값이 크면, 최단거리 정보가 아니기 때문에 continue 로 무시
             continue 
         # ****************** 
