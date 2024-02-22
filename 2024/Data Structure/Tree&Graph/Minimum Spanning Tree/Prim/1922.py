@@ -4,40 +4,33 @@
 # 본 문제에서는 모든 컴퓨터를 연결하는 데 필요한 최소 비용이므로 최소 신장 트리 
     # 크루스칼 또는 프림 알고리즘을 이용하면 되겠다 
 
-from heapq import *
- 
-N = int(input())
-M = int(input())
+import heapq
+n = int(input())
+m = int(input())
 
+graph = [[] for _ in range(n+1)]
+visited = [False for _ in range(n+1)]
+answer = 0
 
-# 1. 그래프 초기화 like DFS 
-graph = {i:[] for i in range(1,N+1)}
-visited = [0 for i in range(N+1)]
-weight = [10001 for i in range(N+1)]
-
-for _ in range(M):
-    a,b,c = map(int, input().split())
+for i in range(m):
+    a,b,c = map(int,input().split())
     graph[a].append((c,b))
     graph[b].append((c,a))
 
+queue = []
+heapq.heappush(queue, (0,1))
 
-def prim(node):
-    # 처음 시작 노드 PQ 에 넣어주기 & 가중치는 0 
-    weight[node] = 0 
-    pq = [(0, node)]
-    heapify(pq) 
-    
-    # 아래로 내려가기 
-    while pq: 
-        now_w, now_n = heappop(pq)
-        if not visited[now_n]:
-            visited[now_n]=1
-            for next_w, next_n in graph[now_n]:
-                if not visited[next_n] and weight[next_n]>next_w:
-                    weight[next_n]=next_w
-                    heappush(pq,(next_w, next_n))
+def Prim():
+    global answer
+    while queue:
+        wei, now = heapq.heappop(queue)
+        if visited[now] == False:
+            visited[now] = True
+            answer += wei
+            for next_wei, next_node in graph[now]:
+                heapq.heappush(queue, (next_wei, next_node))
+    return answer
 
-prim(1) # 1부터 시작 - 그냥 임의로 
-print(sum(weight[1:]))
+print(Prim())
     
     
