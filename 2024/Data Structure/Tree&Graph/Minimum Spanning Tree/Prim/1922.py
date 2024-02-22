@@ -24,6 +24,8 @@ def Prim():
     global answer
     while queue:
         wei, now = heapq.heappop(queue)
+
+        # ***** dijkstra와의 차이점 - 방문한 곳 또 가면 안된다 -> 사이클 생긴다
         if visited[now] == False:
             visited[now] = True
             answer += wei
