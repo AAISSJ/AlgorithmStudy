@@ -7,4 +7,3 @@
 - DFS (재귀) 기반으로 풀되, 완전 탐색인 DFS와는 Pruning한다는 점이 다름 
 - 관련 Article
   - https://medium.com/upsolve-digest/template-for-backtracking-problems-part1-the-basics-75f744cab925
-  - 
