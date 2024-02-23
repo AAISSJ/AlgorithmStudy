@@ -30,11 +30,13 @@
   - **Binary Search**
   - **Two Pointer**
 
+<br>
 
 ## Chapter 2. Math 
 - 유클리드 호제법
 - **에라토스테네스의 체**
 
+<br>
 
 ## Chapter 3. 자료 구조 & Search 2 - Graph & Tree 1
 - 자료 구조
@@ -46,6 +48,7 @@
   - DFS/BFS
   - **Back Tracking**
 
+<br>
 
 ## Chapter 4. 자료 구조 & Search 3 - Graph & Tree 2
 - **Topology Sort**
@@ -59,9 +62,11 @@
 - **Lowest Common Ancestor**
 - **단절점, 단절선**
 
+<br>
 
 ## Chapter 5. 최적화 기법 
 - **분할 정복**
 - **greedy**
 - **DP** 
   
+<br>
