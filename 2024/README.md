@@ -1,7 +1,7 @@
 
 
 - Index 
-  - [2024 목차](https://github.com/AAISSJ/AlgorithmStudy/blob/main/2024/README.md#2024-%EB%AA%A9%EC%B0%A8)
+  - 2024 목차
   - 2024 공부 순서 및 기록  
 
 <br>
