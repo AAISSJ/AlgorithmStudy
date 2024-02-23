@@ -66,11 +66,11 @@
 - Search
   - DFS/BFS
   - **Back Tracking**
+- **Topology Sort**
 
 <br>
 
 ## Chapter 4. 자료 구조 & Search 3 - Graph & Tree 2
-- **Topology Sort**
 - Short Cut
   - **Dijkstra**
   - **Bellman Ford**
