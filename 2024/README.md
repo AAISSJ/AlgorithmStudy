@@ -15,7 +15,7 @@
       - 백준 [ryute 길라잡이 베타 2 문제집](https://www.acmicpc.net/workbook/view/2419)
 
 
-- 볼드체는 우선 순위가 아닌, 내가 공부 부족한 부분 마킹 
+- **볼드체**는 우선 순위가 아닌, 내가 공부 부족한 부분 마킹 
 
 ## Chapter 1. 자료 구조 & Search 1
 
