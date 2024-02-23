@@ -21,13 +21,10 @@ def bfs(root):
         now_x, now_y = queue.popleft()
         for dx,dy in check : 
             next_x,next_y= now_x+dx, now_y+dy
-            if 1<=next_x<=N and 1<=next_y<=M :
-                if graph[next_x][next_y]=='1':
-                    if not visited[next_x][next_y]:
-                        queue.append([next_x,next_y])
-                        visited[next_x][next_y] = visited[now_x][now_y]+1
+            if 1<=next_x<=N and 1<=next_y<=M and graph[next_x][next_y]=='1' and not visited[next_x][next_y]:
+                queue.append([next_x,next_y])
+                visited[next_x][next_y] = visited[now_x][now_y]+1
 
-        
 bfs([1,1])
 print(visited[N][M])
 
