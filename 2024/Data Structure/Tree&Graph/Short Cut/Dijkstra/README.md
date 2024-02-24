@@ -1,13 +1,41 @@
 # Dijkstra
 
+## 1. 개념 & 기본 원리 
+
 - 두 노드 간의 최단 거리(최소가 되는 가중치의 합) 구하기 (**우선순위 큐** 사용!)
-- 다익스트라의 시간복잡도 Elog(V)
 - 기본 로직 -> 쉽게 말하자면 **우선순위 큐 쓴 BFS + weight 배열 고려**
   - graph 배열, visited 배열, **weight 배열** 초기화
   - 시작 노드의 인접노드 u를 우선순위 큐에 저장
   - weight 업데이트 
+<br>
+
+## 2. 시간 복잡도 
+- 다익스트라의 시간복잡도 Elog(V)
+
+<br>
+
+## 3. 사용되는 자료구조 & 기본 코드
+- 우선순위 큐 쓴 BFS + weight 배열 고려
+
+<br>
+
+## 4. 사용 조건
+
+
+<br>
+
+## 5. 문제 유형 
+
+<br>
+
+## 6. 다른 알고리즘과의 차이점 
+- BFS와의 차이점 
 - **<-> 최소 신장 트리의 Prim 알고리즘 코드와 비슷하지만 차이점 구별하기!**
   - dijkstra는 시작 노드에 대해서 각 노드에 대한 최단 경로를 Weight 배열에 업데이트 ([백준 1713번](https://github.com/AAISSJ/AlgorithmStudy/blob/main/2024/Data%20Structure/Tree%26Graph/Short%20Cut/Dijkstra/1753.py))
     -  prim과의 차이점 - 중복 체크하지 않음(이미 방문한 정점이어도 최단 경로면 pq에 추가), **그 대신 지금 가는 길의 weight가 최소가 되는지 확인** 
   - prim의 경우는 시작 노드에 대해서 모든 노드를 거쳐서 각 노드를 거쳤을 때의 값을 기록 ([백준 1922번](https://github.com/AAISSJ/AlgorithmStudy/blob/main/2024/Data%20Structure/Tree%26Graph/Minimum%20Spanning%20Tree/Prim/1922.py))
     - dijkstra와의 차이점 - **방문한 곳 또 가면 안된다**
+- 벨만 포드와의 차이점
+- 플루이드 와샬과의 차이점
+
+  
