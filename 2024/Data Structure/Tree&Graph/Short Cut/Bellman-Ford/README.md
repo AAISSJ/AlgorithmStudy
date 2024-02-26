@@ -51,7 +51,9 @@ def bellmanford(start):
             now_n, next_n, cost = edges[j][0],edges[j][1],edges[j][2]
             if weight[now_n] !=10**9 and weight[next_n] >weight[now_n]+cost: 
                 weight[next_n]=weight[now_n]+cost
-                # 음수 순환 확인 : 맨 마지막 라운드에서도 값이 갱신되면 음수 순환이 존재한다는 것! 
+                # 음수 순환 확인 : 맨 마지막 라운드에서도 값이 갱신되면 음수 순환이 존재한다는 것!
+                # 노드의 갯수가 N개라고 하면, 벨만 포드 알고리즘은 N-1번의 순환 이내에 최적화된 경로를 반드시 뱉어낸다.
+                # 그렇다면, 알고리즘이 N-1번을 넘어 N번째의 순환에 돌입한다면, 이건 뭔가 하자가 있는 (음수 사이클이 있는) 케이스라고 생각할 수 있다
                 if i==N-1 : 
                     return True
     return False 
