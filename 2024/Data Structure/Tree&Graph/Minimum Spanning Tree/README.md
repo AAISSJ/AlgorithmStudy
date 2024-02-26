@@ -1,4 +1,3 @@
-![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/db2f443d-f509-4111-9d6b-13303958b225)
 # 최소 신장 트리(최소 스패닝 트리, Minimum Spanning Tree)
 ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/b6c9530c-24ab-4784-9aec-c3f54361b4a4)
 
