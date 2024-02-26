@@ -82,6 +82,11 @@ for i in range(1,V+1):
 <br>
 
 ## 5. 문제 유형 
+- 다익스트라 경로 구하기 : https://www.acmicpc.net/problem/11779
+- 거꾸로 다익스트라 : https://www.acmicpc.net/problem/1238
+- 2차원 다익스트라 : https://www.acmicpc.net/problem/4485
+- 한점 거치는 다익스트라 : https://www.acmicpc.net/problem/18223
+
 
 <br>
 
