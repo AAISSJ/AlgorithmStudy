@@ -1,3 +1,4 @@
+# 이 문제는 논란거리가 많단다 https://www.acmicpc.net/board/view/72995
 # 백준이가 시간이 줄어들면서, 출발 위치로 돌아오는 것이 가능한지를 물어보기 때문에, 
 # 우리는 주어진 그래프에서 벨만-포드 알고리즘이 무한히 반복되는 경우 (음수 사이클에 빠지는 경우)를 찾아야 한다.
 
@@ -10,7 +11,7 @@ def bellmanford(start):
     for i in range(N):
         for j in range(2*M+W):
             now_n, next_n, cost = edges[j][0], edges[j][1], edges[j][2]
-            if weight[now_n]!=10**9 and weight[next_n]>weight[now_n]+cost: #  
+            if weight[next_n]>weight[now_n]+cost: #  weight[now_n]!=10**9 and <- 이거 검사 안하는 게 이 문제의 핵심이다! 
                 weight[next_n]=weight[now_n]+cost
                 if i==N-1:
                 # 노드의 갯수가 N개라고 하면, 벨만 포드 알고리즘은 N-1번의 순환 이내에 최적화된 경로를 반드시 뱉어낸다. 
