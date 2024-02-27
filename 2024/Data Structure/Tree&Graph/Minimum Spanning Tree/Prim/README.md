@@ -11,7 +11,8 @@
 <br> 
 
 ## 2. 시간 복잡도 
-
+- prim 알고리즘의 시간 복잡도는 O(E log V)
+  - 우선 순위 큐에서 간선을 꺼낼 때 logV의 시간이 소요
 
 <br> 
 
@@ -24,7 +25,39 @@
 <br> 
 
 ## 4. 사용되는 자료구조 및 알고리즘 & 기본 코드
+```python
+import heapq
+n = int(input())
+m = int(input())
 
+graph = [[] for _ in range(n+1)]
+visited = [False for _ in range(n+1)]
+answer = 0
+
+for i in range(m):
+    a,b,c = map(int,input().split())
+    graph[a].append((c,b))
+    graph[b].append((c,a))
+
+queue = []
+heapq.heappush(queue, (0,1))
+
+def Prim():
+    global answer
+    while queue:
+        wei, now = heapq.heappop(queue)
+
+        # ***** dijkstra와의 차이점 - 방문한 곳 또 가면 안된다 -> 사이클 생긴다
+        if visited[now] == False:
+            visited[now] = True
+            answer += wei
+            for next_wei, next_node in graph[now]:
+                heapq.heappush(queue, (next_wei, next_node))
+    return answer
+
+print(Prim())
+    
+```
 
 
 <br> 
