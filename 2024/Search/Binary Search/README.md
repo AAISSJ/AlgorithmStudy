@@ -31,9 +31,8 @@ def binary_search(target, data):
 ## lower bound & upper bound
 
 ### lower bound 
-![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/3d3d92c9-817f-4092-bfd6-5107375ad42b)
 - lower bound : target값이 처음 나오는 인덱스 반환 
--  
+- 아래 두 코드 간 차이점 잘 보기 !
 ```python
 def lower_bound(arr, x):
     start, end = 0, len(arr)
@@ -59,13 +58,16 @@ def lower_bound_while_end(arr, x):
 
 
 ### upper bound 
+- upper bound : target보다 큰 값이 처음 나오는 인덱스 반환
+  - target값보다 같은 경우에도 더 큰 값을 찾으러 옮겨야 된다 `if arr[mid] <= x:`
+- 아래 두 코드 간 차이점 잘 보기 !
 
 ```python
 def upper_bound(arr, x):
     start, end = 0, len(arr)
     while start < end:
         mid = (start + end) // 2
-        if arr[mid] <= x:
+        if arr[mid] <= x: 
             start = mid + 1
         else:
             end = mid
