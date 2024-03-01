@@ -30,6 +30,40 @@ while start<=end:
         
 print(end)    
 
+############################## 방법 2 
+
+import sys 
+input = sys.stdin.readline
+
+# 0. 입력 받기 
+K, N = map(int, input().split())
+arr = []
+
+for _ in range(K):
+    arr.append(int(input()))
+    
+# 1. 이분 탐색 
+start = 1 
+end = max(arr)+1
+
+while start<end: 
+    mid = (start+end)//2
+    
+    # 만약 mid로 나눴을 때 N개만큼 나오는지 확인 
+    cnt = 0 
+    for num in arr: 
+        cnt += num//mid 
+    
+    if N<=cnt:
+        start = mid+1
+    else : 
+        end = mid
+        
+        
+print(end-1)     
+
+
+
 
 
 # 맨 처음에 짠 코드 -> 반례 
