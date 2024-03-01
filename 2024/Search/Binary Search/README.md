@@ -43,7 +43,7 @@ def lower_bound(arr, x):
             start = mid + 1
         else:
             end = mid
-    return start
+    return end
 ```
 ```python
 def lower_bound_while_end(arr, x):
@@ -54,11 +54,11 @@ def lower_bound_while_end(arr, x):
             start = mid + 1
         else:
             end = mid - 1
-    return start
+    return end
 ```
 
 
-### uppper bound 
+### upper bound 
 
 ```python
 def upper_bound(arr, x):
@@ -69,7 +69,7 @@ def upper_bound(arr, x):
             start = mid + 1
         else:
             end = mid
-    return start
+    return end
 ```
 
 ```python
@@ -81,8 +81,11 @@ def upper_bound_while_end(arr, x):
             start = mid + 1
         else:
             end = mid - 1
-    return start
+    return end
 ```
 
+
+
+# 읽어볼만한 글
 
 - [이분 탐색(Binary Search) 헷갈리지 않게 구현하기 ](https://www.acmicpc.net/blog/view/109)
