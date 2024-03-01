@@ -8,6 +8,11 @@
 - 단, **데이터가 정렬되어있어야 함** 
 - 중요한 특징 중 하나 : **lower bound & upper bound**
 
+## 시간 복잡도 
+- O(logN)의 시간 복잡도를 가짐
+
+<br>
+
 ## 이분 탐색의 기본 코드 
 ```python
 def binary_search(target, data):
