@@ -57,9 +57,8 @@ def dijkstra(start_node):
     while pq:
         now_w, now_n = heappop(pq)
         
-        # 그게 아니라면 최단거리 정보이므로 다음과 같은 작업을 수행
         for next_w, next_n in graph[now_n]: # 꺼낸 노드번호에서 갈수 있는 노드와 거리정보를 i를 통해 한개씩 접근
-            # **** bfs, prim과 다른 점 
+            # **** bfs, prim과 다른 점 -> 현재 기록된 weight 배열의 값보다 현재 값이 더 작다면 갱신 
             if now_w + next_w < weight[next_n]:
                 weight[next_n] = now_w + next_w
                 # ************************
