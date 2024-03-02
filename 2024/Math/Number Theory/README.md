@@ -19,7 +19,7 @@
 ## 에라토스테네스의 체 
 - n 이하의 모든 소수 구함 - 시간 복잡도 O(NlogN)
 - 코드 외워두도록 하자
-```
+```python 
 def make_primes(num): 
     count_dic = {i:True for i in range(0, num+1)}
     count_dic[0]=False
