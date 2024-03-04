@@ -3,20 +3,22 @@
 import sys
 input = sys.stdin.readline 
 
+
+# 0. 입력 받기 
 N, C = map(int, input().split())
 arr = [] 
 
 for _ in range(N):
     arr.append(int(input()))
-
 arr.sort()
 
+# 2. 파라메트릭 서치 
+# 힌트 : mid = 가장 인접한 두 공유기 사이의 거리
+# 조건에 만족하는 값 중 가장 큰 값, 가장 작은 값 찾기 -> parametric search 
 
 low = 1 
 high = arr[-1]-arr[0]
 
-
-# 힌트 : mid=가장 인접한 두 공유기 사이의 거리
 while low<=high:
     mid = (low+high)//2
     
@@ -33,4 +35,6 @@ while low<=high:
     else: 
         high = mid-1
 
+
+# 조건에 만족하는 값(가장 인접한 두 공유기 사이의 거리) 중 가장 큰 값을 반환해야 하므로 high 출력
 print(high)
