@@ -1,6 +1,5 @@
 # 같은 정수를 $K$개 이하로 포함한 최장 연속 부분 수열의 길이
-# -> 조건을 만족하는 부분 수열 -> Two Pointer ! 
-# 
+# -> 조건을 만족하는 부분 수열 -> Two Pointer ! O(N)
 
 import sys
 input = sys.stdin.readline 
