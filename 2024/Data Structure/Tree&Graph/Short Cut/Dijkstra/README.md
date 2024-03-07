@@ -59,6 +59,10 @@ def dijkstra(start_node):
     # 그의 "인접 노드"에 대해서 "가중치 순"으로 차례대로 방문  
     while pq:
         now_w, now_n = heappop(pq)
+
+        # 얘를 고려하는 것도 시간복잡도 차원에서 중요하다ㅇㅇㅇ
+        if now_w > weight[now_n]:
+            continue
         
         for next_w, next_n in graph[now_n]: # 꺼낸 노드번호에서 갈수 있는 노드와 거리정보를 i를 통해 한개씩 접근
             # **** bfs, prim과 다른 점 -> 현재 기록된 weight 배열의 값보다 현재 값이 더 작다면 갱신 
