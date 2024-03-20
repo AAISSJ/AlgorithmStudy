@@ -15,7 +15,7 @@ def bfs(x,y):
     queue = deque([(x,y)])
     cnt = 0 
     while queue:
-        now_x, now_y = queue.pop()
+        now_x, now_y = queue.popleft()
         if arr[now_x][now_y]:
             arr[now_x][now_y]=0
             cnt+=1
