@@ -10,6 +10,9 @@
     - 각 간선의 두 노드의 루트 노드를 확인한다.
       - 루트노드가 서로 다르면 union 연산 실행
       - 루트노드가 서로 같으면 cycle 발생한 것
+## 1. 개념 및 기본 원리 
+![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/7260d13f-1b8d-4d3b-9341-afb24a4117e2)
+
 ## init 연산
 ``` python
   arr = [i for i in range(N+1)]
