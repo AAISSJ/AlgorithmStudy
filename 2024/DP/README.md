@@ -48,6 +48,7 @@ print(dfs(-1, 0))
 
 <br>
 ### Bottom-up
+
 ```python
 import sys
 
@@ -63,8 +64,8 @@ for i in range(2, N):
 
 print(dp[-2])
 ```
-<br>
 
+<br>
 
 
 ## 3. 2차원 DP 배열 (BOJ 1149 RGB거리)
