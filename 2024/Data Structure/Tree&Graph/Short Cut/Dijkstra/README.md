@@ -60,7 +60,7 @@ def dijkstra(start_node):
     while pq:
         now_w, now_n = heappop(pq)
 
-        # 얘를 고려하는 것도 시간복잡도 차원에서 중요하다ㅇㅇㅇ
+        # 얘를 고려하는 것도 시간복잡도 차원에서 중요하다ㅇㅇㅇ - 필수임 !!!!!!!!!!
         if now_w > weight[now_n]:
             continue
         
