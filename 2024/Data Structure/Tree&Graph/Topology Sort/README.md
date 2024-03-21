@@ -30,7 +30,7 @@
 
 <br>
 
-### 3. 코드 
+### 3. 기본 코드 (BOJ 2252 줄 세우기)
 ``` python
 from collections import deque 
 
