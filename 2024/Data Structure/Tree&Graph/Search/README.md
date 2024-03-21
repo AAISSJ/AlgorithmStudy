@@ -58,7 +58,8 @@ for i in range(2, N+1):
 ### 3. 사용 조건 
 
 ### 4. 사용되는 자료 구조 및 알고리즘 & 기본 코드 
-- 재귀를 사용한다 
+- 재귀 또는 스택을 사용함
+#### 1) 재귀를 이용한 DFS
 ```python
 from collections import deque
 import sys 
@@ -87,6 +88,12 @@ dfs(1)
 
 for i in range(2, N+1):
   print(visited[i])
+```
+
+#### 2) Stack을 사용한 DFS
+- 이쪽이 메모리 문제가 안 난다
+```python
+
 ```
 
 
