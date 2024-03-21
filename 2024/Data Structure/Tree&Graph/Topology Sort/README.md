@@ -10,6 +10,8 @@
 ## 위상 정렬(Topology Sort) : DAG에서 그래프의 방향성을 거스르지 않고 정점들을 나열하는 것
 
 ### 1. 개념 및 기본 원리 
+![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/eb1d6c91-9835-43f3-8247-f76e3bbe212b)
+
 - 1. init : graph와 in_degree 배열 초기화
 - 2. topology sort (BFS의 변형)
   - 1) queue를 이용하여 진입 차수가 0인 노드부터 먼저 큐에 넣기
