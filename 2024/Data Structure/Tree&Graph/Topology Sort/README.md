@@ -40,7 +40,7 @@ N, M = map(int, input().split())
 arr = [[] for i in range(N+1)]
 in_degree = [0 for i in range(N+1)] # 진입차수
 
-
+#  A가 학생 B의 앞에 서야 한다
 def init(a,b):
     arr[a].append(b)
     in_degree[b]+=1
