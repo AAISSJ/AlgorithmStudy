@@ -69,7 +69,12 @@ print(dp[-2])
 <br>
 
 
-## 3. 2차원 DP 배열 (BOJ 1149 RGB거리)
+## 3. 2차원 DP 배열 (BOJ 1149 RGB거리/12865 평범한 배낭)
+- DP 배열의 X축과 Y축을 어떻게 설정할 것이냐를 잘 생각해봐야 한다
+    - 만약 생각한대로 잘 안 풀리면 축에 설정할 값을 바꿔줘보기! (ex. 물건의 개수 말고 무게로 둬볼까?)
+
+
+
 ```python
 import sys 
 input = sys.stdin.readline 
