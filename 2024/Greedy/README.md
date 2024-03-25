@@ -32,7 +32,9 @@
 ### 예제 (BOJ 1931 회의실 배정)
 ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/4ff2e55c-bfce-485d-b5e2-439cea11517c)
 ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/ed6b642e-8b8b-42a3-a58a-f18be9c3ac22)
+
 - 이 증명에서도 귀류법이 쓰입니다. 명제를 거짓이라고 가정하면 지금 이 상황에서 회의 A 말고 다른 회의를 택했을 때 더 많은 회의를 배정할 수 있는 경우가 있습니다. 설명의 편의를 위해 택한 다른 회의를 B라고 하겠습니다.
+
 ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/aca48516-eb60-4ce2-8b41-19668468bed5)
 
 
