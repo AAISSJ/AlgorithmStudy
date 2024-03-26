@@ -12,6 +12,9 @@
 
 ## 2. 시간복잡도 
 - 우선순위 가장 높은 데이터 찾기 : O(1)
+- heapify : O(logN)
+    ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/ae761461-208d-4146-a9ec-824be76f2b49)
+
 - 추가 연산 : O(logN) - 트리의 최대 높이만큼 동작하기 때문에 
   ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/ebc0fa5c-7903-40d9-855a-5ff615823a96)
 - 삭제 연산 : O(logN) - 트리의 최대 높이만큼 동작하기 때문에 
