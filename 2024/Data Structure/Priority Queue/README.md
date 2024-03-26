@@ -13,10 +13,11 @@
 ## 2. 시간복잡도 
 - 우선순위 가장 높은 데이터 찾기 : O(1)
 - 추가 연산 : O(logN) - 트리의 최대 높이만큼 동작하기 때문에 
-  ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/ff741572-aadd-45ad-a24a-7fe52846886d)
-
+  ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/ebc0fa5c-7903-40d9-855a-5ff615823a96)
 - 삭제 연산 : O(logN) - 트리의 최대 높이만큼 동작하기 때문에 
-  ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/26ad6826-242c-47c7-a819-e407f47925fc)
+  ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/3ebe40eb-cfb7-4f4e-ad78-fcce3396454c)
+
+
 
 
 ## 3. 사용 조건 
