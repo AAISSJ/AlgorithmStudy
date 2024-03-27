@@ -1,5 +1,9 @@
 # Optimization
 
+- 동적 프로그래밍(Dynamic Programming, DP), 분할 정복(Divide and Conquer), 그리디(Greedy) 알고리즘은 모두 문제를 효율적으로 해결하기 위한 알고리즘 
+
+<br>
+
 | 알고리즘 | Divide and Conquer | Dynamic Programming | Greedy |
 | --- | --- | --- | --- |
 | **정의**  | non-overlapping한 문제를 작은 문제로 쪼개어 해결하는데 non-overlapping | overlapping substructure를 갖는 문제를 해결한다. | 각 단계에서의 최적의 선택을 통해 해결한다. |
