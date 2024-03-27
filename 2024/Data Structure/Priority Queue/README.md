@@ -8,6 +8,8 @@
 ### 최대힙 VS 최대힙 
 ![image](https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/7c7743e4-91b9-4d60-a2d9-b75fd2053ed0)
 
+- 최대 힙(max heap)은 부모 노드의 키 값이 자식 노드의 키 값보다 크거나 같은 완전 이진 트리이다.
+- 최소 힙(min heap)은 부모 노드의 키 값이 자식 노드의 키 값보다 작거나 같은 완전 이진 트리이다.
 
 
 ## 2. 시간복잡도 
