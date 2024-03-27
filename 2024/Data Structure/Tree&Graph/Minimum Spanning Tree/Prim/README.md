@@ -14,6 +14,8 @@
 - prim 알고리즘의 시간 복잡도는 O(E log V)
   - 우선 순위 큐에서 간선을 꺼낼 때 logV의 시간이 소요
 
+<img width="703" alt="스크린샷 2024-03-27 오후 1 05 08" src="https://github.com/AAISSJ/AlgorithmStudy/assets/76966915/a88dc9f4-c671-47c5-b074-5f3ee7981e02">
+
 <br> 
 
 ## 3. 사용 조건 
@@ -83,3 +85,6 @@ print(Prim())
 - <-> 최단 경로 알고리즘의 dijkstra와 코드 비슷하나 차이점 확인하기!
   - dijkstra는 시작 노드에 대해서 각 노드에 대한 최단 경로를 Weight 배열에 업데이트 (백준 1713번)
   - prim의 경우는 시작 노드에 대해서 모든 노드를 거쳐서 각 노드를 거쳤을 때의 값을 기록 (백준 1922)
+ 
+## 7. 참고 자료 
+- https://8iggy.tistory.com/159
